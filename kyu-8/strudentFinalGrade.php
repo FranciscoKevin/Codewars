@@ -26,7 +26,7 @@
     20, 2 --> 0
 */
 
-function finalGrade($exam, $projects) {
+function finalGrade(int $exam, int $projects): int {
 
     $note1 = 100;
     $note2 = 90;
