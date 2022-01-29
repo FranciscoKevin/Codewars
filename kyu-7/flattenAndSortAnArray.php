@@ -9,7 +9,7 @@
     Given [[3, 2, 1], [4, 6, 5], [], [9, 7, 8]], your function should return [1, 2, 3, 4, 5, 6, 7, 8, 9].
 */
 
-function flatten_and_sort(array $array) : array {
+function flatten_and_sort(array $array): array {
     $array = array_merge(...$array);
     sort($array);
 
