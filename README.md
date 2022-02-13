@@ -1,4 +1,4 @@
-# <a href="https://https://www.codewars.com/users/kevin-francisco">Welcome to my Codewars profil</a>
+# <a href="https://www.codewars.com/users/kevin-francisco">Welcome to my Codewars profil</a>
 
 <img src="https://www.codewars.com/users/kevin-francisco/badges/large">
 
