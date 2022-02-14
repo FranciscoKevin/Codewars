@@ -19,3 +19,9 @@
     Output:
     o – the number of opened doors, o ∈ N
 */
+
+function doors(int $number): int 
+{
+    // Returns the square root of the number
+    return sqrt($number);
+}
