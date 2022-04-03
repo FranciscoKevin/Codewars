@@ -10,7 +10,7 @@
 */
 
 
-public class CharProblem {
+public class ParseNiceIntFromChar {
   public static int howOld(final String herOld) {
     String str = herOld.substring(0, 1);
     int number = Integer.parseInt(str);  

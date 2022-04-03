@@ -7,7 +7,7 @@
     [1, 2, 3] --> [2, 4, 6]
 */
 
-public class Maps {
+public class LostWithoutAMap {
   public static int[] map(int[] arr) {
     int length = arr.length;
     int newArray[] = new int[length];

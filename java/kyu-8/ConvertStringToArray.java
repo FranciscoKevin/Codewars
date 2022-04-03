@@ -7,7 +7,7 @@
     "Robin Singh" ==> ["Robin", "Singh"]
     "I love arrays they are my favorite" ==> ["I", "love", "arrays", "they", "are", "my", "favorite"]
 */
-public class Solution {
+public class ConvertStringToArray {
     public static String[] stringToArray(String s) {
       return s.split(" ");
     }

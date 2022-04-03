@@ -10,7 +10,7 @@
     Expect large Inputs!
 */
 
-public class Kata {
+public class CountOddNumbersBellow {
   public static int oddCount(int n){
     n = n / 2;
     double newNumber = Math.floor(n);
