@@ -19,11 +19,9 @@
     Have fun coding it and please don't forget to vote and rank this kata! :-)
 */
 
-function getLengthOfMissingArray(array $arrayOfArrays): int 
+function getLengthOfMissingArray($arrayOfArrays)
 {
-    if (!$arrayOfArrays || $arrayOfArrays === 0) return 0;
-
-    $arrayLength = array_map("count", $arrayOfArrays);
+    if (!$arrayOfArrays || in_array(0, $arrayLength = array_map("count", $arrayOfArrays))) return 0;
     $compareArray = range(min($arrayLength), max($arrayLength));
 
     return current(array_values(array_diff($compareArray, $arrayLength)));
